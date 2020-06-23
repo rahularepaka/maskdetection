@@ -4,7 +4,7 @@ import winsound
 import numpy as np
 from pyzbar.pyzbar import decode
 
-detector = cv2.CascadeClassifier('hcs/haarcascade_frontalface_default.xml')
+detector = cv2.CascadeClassifier('hcs/haarcascade_frontalface_default.xml')  #Change the Location the file in your PC
 
 cap = cv2.VideoCapture(0)
 cap.set(3, 640)
@@ -70,7 +70,7 @@ def maskdetectionprogram():
                                      cv2.FONT_HERSHEY_COMPLEX, 0.5, (0, 0, 255), 2)
             cv2.putText(img, qr.var, (270, 100),
                         cv2.FONT_HERSHEY_COMPLEX, 0.5, (0, 255, 255), 2)
-            winsound.Beep(5000, 100)
+            #winsound.Beep(5000, 100)
             savedimg = print(
                 "Do You Want To Save The Person's Image then click Enter")
             count = 0
