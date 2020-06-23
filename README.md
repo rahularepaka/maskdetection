@@ -15,6 +15,10 @@ If the mask is not detected then it saves the picture of the person and updates 
  
  -Numpy Python Library
  
+ -Pyzbar Python Library
+ 
+ -Winsound Python Library
+ 
  -Python 3
  
  -VS Code or Any other Text Editor
